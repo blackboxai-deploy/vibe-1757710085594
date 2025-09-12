@@ -1,12 +1,12 @@
 {
   "name": "tetris-mobile",
   "version": "1.0.0",
-  "description": "Joc Tetris optimizat pentru mobile cu Next.js și TypeScript",
+  "description": "Joc Tetris optimizat pentru mobile cu Next.js \u0219i TypeScript",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
-    "@types/react": "^19.0.0", 
+    "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.0.0",
